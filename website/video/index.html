@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        text-align:center;
+        background-color:#999999;
+        }
+    p { 
+        color:#FFFFFF;
+    }
+    canvas {
+        width:100%;
+    }
+</style>
+<title>EM-X for HTML5 Canvas</title>
+</head>
+<body>
+
+    <!-- create a canvas element and gave it an id -->
+    <canvas id="EMXCanvas">
+    Sorry,your browser does not support the HTML5 canvas element.
+    </canvas>
+
+</body>
+
+    <!-- load the core script -->
+    <script src="Lib/D2D_Engine.js"></script>
+    <script src="Lib/D2D_Texture.js"></script>
+    <script src="Lib/D2D_Audio.js"></script>
+    <script src="Lib/D2D_Video.js"></script>
+    <script src="Lib/D2D_Loader.js"></script>
+    <script src="Lib/D2D_Sprite.js"></script>
+    <script src="Lib/D2D_Animation.js"></script>
+    <script src="Lib/D2D_Font.js"></script>
+    <script src="Lib/D2D_RectBox.js"></script>
+
+    <!-- load the ext script -->
+    <script src="Ext/Box2dWeb-2.1.a.3.js"></script>
+
+    <!-- load the sys script -->
+    <script src="Sys/R.js"></script>
+    <script src="Sys/Screen/LoadScreen.js"></script>
+    <script src="Sys/Screen/LogoScreen.js"></script>
+
+
+    <!-- load the entry script -->
+    <script src="main.js"></script>
+
+</html>

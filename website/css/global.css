@@ -1,0 +1,102 @@
+/* CSS Document */
+* { 
+	padding: 0;
+	margin: 0; 
+}
+
+body {
+	text-align:center;
+	background-color:#000000;
+}
+
+#header {
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#000000;
+	font-size:24px;
+	font-family:arial;
+	color:#FFFFFF;
+}
+
+#banner {
+	background-color:#666666;
+	height:600px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#canvasUnable {
+	width:800px;
+	height:600px;
+	background-color:#CCCCCC;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+}
+
+.blank {
+	height:20px;
+}
+
+.browserIntro {
+	height:110px;
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+.browserIntro a {
+	font-size:25px;
+}
+
+#bulkhead {
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#000000;
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+#bulkhead a {
+	color:#CCCCCC;
+}
+
+#content {
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#CCCCCC;
+	color:#000000;
+	text-align:center;
+}
+
+#download {
+	padding-top:5px;
+	padding-bottom:40px;
+}
+
+#tutorials ,#advanced, #others, #games {
+	padding-top:15px;
+	padding-bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+	text-align:left;
+	line-height:22px;
+}
+
+#gotobbs {
+	padding-top:40px;
+	padding-bottom:15px;
+}
+
+#footer {
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#000000;
+	color:#FFFFFF;
+}
+
+#footer a {
+	color:#CCCCCC;
+}
